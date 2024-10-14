@@ -1,0 +1,253 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "slug": "basics-of-web-development",
+      "title": "The Basics of Web Development",
+      "author": "John Doe",
+      "date": "2024-10-01",
+      "readTime": "5 min",
+      "toc": [
+        { "id": "intro", "title": "Introduction" },
+        { "id": "html", "title": "Understanding HTML" },
+        { "id": "css", "title": "CSS: Styling Your Webpage" },
+        { "id": "faq", "title": "FAQs" }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "intro",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Web development is a broad field that involves creating websites and web applications. In this article, we'll introduce you to the basics of HTML, CSS, and web development."
+        },
+        {
+          "type": "image",
+          "src": "https://via.placeholder.com/600x300",
+          "alt": "Web Development Basics"
+        },
+        {
+          "type": "heading",
+          "id": "html",
+          "level": 2,
+          "text": "Understanding HTML"
+        },
+        {
+          "type": "paragraph",
+          "text": "HTML (HyperText Markup Language) is the standard language for creating web pages. Below is an example of a simple HTML structure."
+        },
+        {
+          "type": "code",
+          "language": "html",
+          "code": "<!DOCTYPE html><html><head><title>Page Title</title></head><body><h1>This is a Heading</h1><p>This is a paragraph.</p></body></html>"
+        },
+        {
+          "type": "heading",
+          "id": "css",
+          "level": 2,
+          "text": "CSS: Styling Your Webpage"
+        },
+        {
+          "type": "paragraph",
+          "text": "CSS (Cascading Style Sheets) is used to control the look and feel of your web pages. Here's how you can change the color of text."
+        },
+        {
+          "type": "code",
+          "language": "css",
+          "code": "h1 { color: blue; }"
+        },
+        {
+          "type": "table",
+          "columns": ["Element", "Description"],
+          "rows": [
+            ["<h1>", "Defines the most important heading"],
+            ["<p>", "Defines a paragraph"],
+            ["<div>", "Defines a division or section"]
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "faq",
+          "level": 2,
+          "text": "FAQs"
+        },
+        {
+          "type": "faq",
+          "questions": [
+            {
+              "question": "What is HTML?",
+              "answer": "HTML stands for HyperText Markup Language and is used to create web pages."
+            },
+            {
+              "question": "How do I change the style of my webpage?",
+              "answer": "You can use CSS to style your webpage by changing elements like color, size, and layout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "introduction-to-react",
+      "title": "Introduction to React",
+      "author": "Jane Smith",
+      "date": "2024-09-20",
+      "readTime": "6 min",
+      "toc": [
+        { "id": "intro", "title": "Introduction" },
+        { "id": "jsx", "title": "JSX in React" },
+        { "id": "components", "title": "Components in React" },
+        { "id": "faq", "title": "FAQs" }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "intro",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "React is a popular JavaScript library for building user interfaces, particularly for single-page applications. React allows developers to build encapsulated components that manage their state and render efficiently."
+        },
+        {
+          "type": "image",
+          "src": "https://via.placeholder.com/600x300",
+          "alt": "React Logo"
+        },
+        {
+          "type": "heading",
+          "id": "jsx",
+          "level": 2,
+          "text": "JSX in React"
+        },
+        {
+          "type": "paragraph",
+          "text": "JSX is a syntax extension to JavaScript and is used in React to describe the UI. It looks similar to HTML but allows you to use JavaScript expressions within it."
+        },
+        {
+          "type": "code",
+          "language": "jsx",
+          "code": "const element = <h1>Hello, world!</h1>;"
+        },
+        {
+          "type": "heading",
+          "id": "components",
+          "level": 2,
+          "text": "Components in React"
+        },
+        {
+          "type": "paragraph",
+          "text": "Components are the building blocks of a React application. They can be functional or class-based. Below is an example of a functional component."
+        },
+        {
+          "type": "code",
+          "language": "jsx",
+          "code": "function Welcome() {\n  return <h1>Hello, React!</h1>;\n}"
+        },
+        {
+          "type": "heading",
+          "id": "faq",
+          "level": 2,
+          "text": "FAQs"
+        },
+        {
+          "type": "faq",
+          "questions": [
+            {
+              "question": "What is JSX?",
+              "answer": "JSX is a syntax extension for JavaScript that allows writing HTML-like code within React components."
+            },
+            {
+              "question": "What are components in React?",
+              "answer": "Components are reusable, encapsulated UI elements that make up a React application."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "getting-started-with-nodejs",
+      "title": "Getting Started with Node.js",
+      "author": "Alex Johnson",
+      "date": "2024-08-15",
+      "readTime": "7 min",
+      "toc": [
+        { "id": "intro", "title": "Introduction" },
+        { "id": "setup", "title": "Setting Up Node.js" },
+        { "id": "modules", "title": "Understanding Node Modules" },
+        { "id": "faq", "title": "FAQs" }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "intro",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to build server-side and network applications using JavaScript."
+        },
+        {
+          "type": "image",
+          "src": "https://via.placeholder.com/600x300",
+          "alt": "Node.js Logo"
+        },
+        {
+          "type": "heading",
+          "id": "setup",
+          "level": 2,
+          "text": "Setting Up Node.js"
+        },
+        {
+          "type": "paragraph",
+          "text": "To get started with Node.js, you need to install it from the official Node.js website. Once installed, you can run JavaScript code from the command line."
+        },
+        {
+          "type": "code",
+          "language": "bash",
+          "code": "node --version\nnpm --version"
+        },
+        {
+          "type": "heading",
+          "id": "modules",
+          "level": 2,
+          "text": "Understanding Node Modules"
+        },
+        {
+          "type": "paragraph",
+          "text": "Node.js has a rich ecosystem of modules that you can import into your applications. Here's an example of how to use the 'fs' module to read a file."
+        },
+        {
+          "type": "code",
+          "language": "javascript",
+          "code": "const fs = require('fs');\nfs.readFile('file.txt', 'utf8', (err, data) => {\n  if (err) throw err;\n  console.log(data);\n});"
+        },
+        {
+          "type": "heading",
+          "id": "faq",
+          "level": 2,
+          "text": "FAQs"
+        },
+        {
+          "type": "faq",
+          "questions": [
+            {
+              "question": "What is Node.js?",
+              "answer": "Node.js is a JavaScript runtime built on the V8 JavaScript engine, used to build server-side applications."
+            },
+            {
+              "question": "How do I install Node.js?",
+              "answer": "You can download and install Node.js from the official website. Once installed, you can use 'node --version' to verify the installation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
